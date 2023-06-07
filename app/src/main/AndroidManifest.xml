@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.example.Noah_AppDev_Ecommerce">
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EcommerceAPPSTORE"
-        tools:targetApi="31">
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.e_commerceapp_store.About"></activity>
+        <activity android:name="com.example.e_commerceapp_store.AddStock" />
+        <activity android:name="com.example.e_commerceapp_store.Shoes" />
+        <activity android:name="com.example.e_commerceapp_store.BottomWear" />
+        <activity android:name="com.example.e_commerceapp_store.Formals" />
+        <activity android:name="com.example.e_commerceapp_store.tShirts" />
+        <activity android:name="com.example.e_commerceapp_store.DisplayItem" />
+        <activity android:name="com.example.e_commerceapp_store.WomensClothing" />
+        <activity android:name="com.example.e_commerceapp_store.MensClothing" />
+        <activity android:name="com.example.e_commerceapp_store.OtherItems" />
+        <activity android:name="com.example.e_commerceapp_store.Books" />
+        <activity android:name="com.example.e_commerceapp_store.Electronics" />
+        <activity android:name="com.example.e_commerceapp_store.Clothing" />
+        <activity android:name="com.example.e_commerceapp_store.CurrentOrderStatus" />
+        <activity android:name="com.example.e_commerceapp_store.AcceptOrders" />
+        <activity android:name="com.example.e_commerceapp_store.AddStaff" />
+        <activity android:name="com.example.e_commerceapp_store.PlaceOrder" />
+        <activity android:name="com.example.e_commerceapp_store.StaffLogin" />
+        <activity android:name="com.example.e_commerceapp_store.StaffHomePage" />
+        <activity android:name="com.example.e_commerceapp_store.AdminHomePage" />
+        <activity android:name="com.example.e_commerceapp_store.AdminLogin" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.EcommerceAPPSTORE.NoActionBar">
+            android:name="com.example.e_commerceapp_store.HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.e_commerceapp_store.RegisterPage" />
+        <activity android:name="com.example.e_commerceapp_store.LoginPage" />
+        <activity android:name="com.example.e_commerceapp_store.RegLogChoice" />
+        <activity android:name="com.example.e_commerceapp_store.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
     </application>
 
