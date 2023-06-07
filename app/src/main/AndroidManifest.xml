@@ -36,7 +36,8 @@
         <activity android:name="com.example.e_commerceapp_store.RegisterPage" />
         <activity android:name="com.example.e_commerceapp_store.LoginPage" />
         <activity android:name="com.example.e_commerceapp_store.RegLogChoice" />
-        <activity android:name="com.example.e_commerceapp_store.MainActivity">
+        <activity android:name="com.example.e_commerceapp_store.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
