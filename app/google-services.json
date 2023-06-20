@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "141923804499",
+    "project_id": "application-dev-project",
+    "storage_bucket": "application-dev-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141923804499:android:6a23500cf7e59c56262da6",
+        "android_client_info": {
+          "package_name": "com.example.Noah_AppDev_Ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141923804499:android:108e0138b801493d262da6",
+        "android_client_info": {
+          "package_name": "com.example.e_commerceapp_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141923804499:android:03bdb0f03a12fa0c262da6",
+        "android_client_info": {
+          "package_name": "com.example.smartkartapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

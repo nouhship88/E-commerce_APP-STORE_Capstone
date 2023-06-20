@@ -1,9 +1,8 @@
-# E-commerce_APP-STORE_Capstone
-*****************
-Capstone Project
+APPLICATION DEVELOPMENT 2
+(MOBILE)
+“Final Project”
 Student name and #:
 Noah Shanta 2295036
 Supervised by:
-Professor. Adin
-Date: 08/05/2023
-*****************
+Professor. Samir Chebbine
+Date: 14/02/2023
