@@ -1,62 +1,34 @@
 {
   "project_info": {
-    "project_number": "141923804499",
-    "project_id": "application-dev-project",
-    "storage_bucket": "application-dev-project.appspot.com"
+    "project_number": "550420235067",
+    "firebase_url": "https://ecommerceappstore-7f956-default-rtdb.firebaseio.com",
+    "project_id": "ecommerceappstore-7f956",
+    "storage_bucket": "ecommerceappstore-7f956.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141923804499:android:6a23500cf7e59c56262da6",
-        "android_client_info": {
-          "package_name": "com.example.Noah_AppDev_Ecommerce"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:141923804499:android:108e0138b801493d262da6",
+        "mobilesdk_app_id": "1:550420235067:android:8bcba41008aa9c2477ed1e",
         "android_client_info": {
           "package_name": "com.example.e_commerceapp_store"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+          "client_id": "550420235067-a3lh27hhdlcfha5k1f7ku9kks8vs9ceu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
+          "current_key": "AIzaSyBmcqQJBrz0ffqabcpObjuFrB5PHm_oL0w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+              "client_id": "550420235067-a3lh27hhdlcfha5k1f7ku9kks8vs9ceu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -65,27 +37,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141923804499:android:03bdb0f03a12fa0c262da6",
+        "mobilesdk_app_id": "1:550420235067:android:a42a715240e18bfc77ed1e",
         "android_client_info": {
           "package_name": "com.example.smartkartapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+          "client_id": "550420235067-a3lh27hhdlcfha5k1f7ku9kks8vs9ceu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAy0qEw_Lklj6tFSZ8KFeU1TPrXxsJIsdQ"
+          "current_key": "AIzaSyBmcqQJBrz0ffqabcpObjuFrB5PHm_oL0w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141923804499-l0l6poqog7h7fi1pgt6ste2mhn4pvlhl.apps.googleusercontent.com",
+              "client_id": "550420235067-a3lh27hhdlcfha5k1f7ku9kks8vs9ceu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
