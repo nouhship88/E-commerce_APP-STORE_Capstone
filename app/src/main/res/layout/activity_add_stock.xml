@@ -12,19 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter item id"
+        android:hint="Enter item ID"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="#4CAF50"
-        android:textColorHint="#4CAF50"
+        android:textColor="#1B1B1A"
+        android:textColorHint="#080909"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299" />
+        app:layout_constraintVertical_bias="0.364" />
 
     <EditText
         android:id="@+id/etAdd"
@@ -33,16 +33,16 @@
         android:ems="10"
         android:hint="Enter quantity to add"
         android:textAlignment="center"
-        android:textColor="#4CAF50"
-        android:textColorHint="#4CAF50"
+        android:textColor="#FAF7F7"
+        android:textColorHint="#090909"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
+        app:layout_constraintVertical_bias="0.469" />
 
     <Button
         android:id="@+id/btnUpdateStock"

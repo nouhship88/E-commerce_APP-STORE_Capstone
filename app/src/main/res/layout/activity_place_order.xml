@@ -7,46 +7,94 @@
     tools:context=".PlaceOrder">
 
     <TextView
+        android:id="@+id/textView21"
+        android:layout_width="61dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:text="Price:"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textColorLink="#E91E63"
+        app:layout_constraintBottom_toBottomOf="@+id/itemprice"
+        app:layout_constraintEnd_toStartOf="@+id/itemprice"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemprice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Phone number:"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textColorLink="#E91E63"
+        app:layout_constraintBottom_toBottomOf="@+id/custphone"
+        app:layout_constraintEnd_toStartOf="@+id/custphone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/custphone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Item:"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textColorLink="#E91E63"
+        app:layout_constraintBottom_toBottomOf="@+id/itemdet"
+        app:layout_constraintEnd_toStartOf="@+id/itemdet"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/itemdet"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
         android:id="@+id/custname"
-        android:layout_width="316dp"
-        android:layout_height="51dp"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
         android:textColor="#E91E63"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <TextView
         android:id="@+id/custphone"
-        android:layout_width="285dp"
-        android:layout_height="53dp"
+        android:layout_width="236dp"
+        android:layout_height="40dp"
         android:textColor="#E91E63"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.754"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
+        app:layout_constraintVertical_bias="0.267" />
 
     <TextView
         android:id="@+id/itemdet"
-        android:layout_width="342dp"
-        android:layout_height="43dp"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
         android:textColor="#E91E63"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintHorizontal_bias="0.702"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401" />
+        app:layout_constraintVertical_bias="0.397" />
 
     <EditText
         android:id="@+id/etadd"
@@ -121,7 +169,23 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.321"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name:"
+        android:textColor="#E91E63"
+        android:textColorHint="#E91E63"
+        android:textColorLink="#E91E63"
+        app:layout_constraintBottom_toBottomOf="@+id/custname"
+        app:layout_constraintEnd_toStartOf="@+id/custname"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/custname"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
