@@ -50,21 +50,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vanier College"
+        android:textAlignment="center"
         android:textColor="@color/blackColor"
         android:textSize="18sp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintVertical_bias="0.685" />
+
+
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Connect with me:"
+        android:onClick="playIT"
         android:textColor="@color/blackColor"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,5 +100,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/whiteColor"
+        android:backgroundTint="#F6D9B1"
+        android:onClick="playIT"
+        android:text="Play my favorite song"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
