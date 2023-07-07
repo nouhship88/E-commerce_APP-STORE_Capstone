@@ -32,7 +32,7 @@
         android:layout_below="@id/item_price_display"
         android:layout_marginTop="63dp"
         android:backgroundTint="#e91e63"
-        android:text="Place Order"
+        android:text="ADD TO CART"
         android:textAlignment="center"
         android:textColor="@color/whiteColor"
         android:textSize="18sp" />
